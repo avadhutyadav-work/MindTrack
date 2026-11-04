@@ -7,7 +7,7 @@ from typing import Literal
 from fastapi.middleware.cors import CORSMiddleware 
 
 model = joblib.load(
-    "C:/Users/avadh/Desktop/Projects/Project/Mental_Health_Model.pkl"
+    "Mental_Health_Model.pkl"
 )
 
 top_countries = [
