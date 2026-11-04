@@ -1,7 +1,7 @@
 "use strict";
 
 // ---- Configuration -------------------------------------------------------
-const BASE_URL = "http://127.0.0.1:8000";   // FastAPI backend
+const BASE_URL = "https://mindtrack-1-ybvi.onrender.com";   // FastAPI backend
 const API_URL = `${BASE_URL}/predict`;
 const SCORE_MAX = 10;         // top of the score scale used for the gauge (change if your target differs)
 
