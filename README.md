@@ -4,13 +4,6 @@ MindTrack estimates a student's **mental health score** from personal details, s
 
 > **Disclaimer:** the score is a statistical estimate produced by a machine learning model. It is **not** a clinical diagnosis and must not be used to make decisions about anyone's health.
 
-## Preview
-
-![MindTrack result view](docs/preview-result.png)
-
-*Result view with the score gauge. The values in this screenshot are sample data.*
-
-![MindTrack form](docs/preview-form.png)
 
 ## Features
 
@@ -75,7 +68,7 @@ Project/
    uvicorn main:app --reload
    ```
 
-5. **Open the app** at <http://127.0.0.1:8000>. The interactive API docs are at <http://127.0.0.1:8000/docs>.
+5. **Open the app** at <https://mindtrack-2.onrender.com/>. The interactive API docs are at <https://mindtrack-2.onrender.com/docs>.
 
 The frontend reads the backend address from `BASE_URL` at the top of `static/script.js`. Change it, and the two asset URLs in `static/index.html`, if you deploy to another host.
 
